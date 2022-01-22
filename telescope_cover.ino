@@ -12,8 +12,8 @@
 #include "index.h"
 
 // Wifi config
-#define WIFI_SSID "WFH"
-#define WIFI_PASSWD "27661005@Calvin3171"
+#define WIFI_SSID "xxx"
+#define WIFI_PASSWD "xxx"
 
 // Declear parameters
 WebServer server(80);
