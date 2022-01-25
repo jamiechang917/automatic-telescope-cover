@@ -191,6 +191,11 @@
                 document.getElementById("flat_panel_state_text").style.color = "green";
             }
 
+            // motor_angle
+            xmlDoc = xmlResponse.getElementsByTagName("motor_angle");
+            message = xmlDoc[0].firstChild.nodeValue;
+            document.getElementById("motor_angle_text").innerHTML = message;
+
         }
 
         function process() { // ask for an xml stream
